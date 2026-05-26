@@ -1,0 +1,153 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+worktrees/
+results/
+queue/
+
+# Agent prompt files (generated per-session by launchers)
+CLAUDE.md
+AGENTS.md
+
+# Experimental code/artifacts
+dev/
+
+# Results file
+results.tsv
+results.tssv
+
+# Training logs
+*.log
+
+# Temporary verification scripts
+_check_*
+_fix_*
+_inspect_*
+_update_*
+_verify_*
+_zeroshot_*
+_zenodo_*
+_p2_*
+_stft_*
+_phase2_*
+_rerun_*
+_experiment_*
+
+# Not main experiment code
+analysis.ipynb
+check_*
+debug_*
+fix_*.py
+train_github_*
+train_gpt_original.py
+train_zenodo_*
+train_cross_clean.py
+train_diff.txt
+train_local_temp.txt
+adapt_zenodo.py
+zenodo_train.py
+normalize_zenodo.py
+prepare_fd_github.py
+prepare_fd_local_backup.py
+prepare_zenodo_hr.py
+github_README.md
+github_experiment.*
+train_github.py
+patch_fonts.py
+update_paper_*.py
+run_*.bat
+task-summary_*.md
+best_model_hifd.pt
+cross_validate_zenodo.py
+clean_dupes.py
+check_data.py
+check_fw.py
+check_log.py
+fix_bold.py
+fix_cmap.py
+fix_cmap2.py
+fix_data.py
+fix_gyro.py
+fix_paper_audit.py
+fix_vmin.py
+prepare.py
+progress.png
+figure_*.pdf
+run_all_adapt_fixed.log
+
+# Large model files
+*.pt
+
+# Cross-domain result artifacts
+zenodo_cross_domain_results/
+zenodo_cross_validation_results.json
+
+# Root figures (generated output, generators in paper/)
+figures/
+
+# Paper temporary scripts (dev/iteration artifacts)
+paper/_*
+paper/add_*.py
+paper/apply_*.py
+paper/check_*.py
+paper/fetch_*.py
+paper/fix_*.py
+paper/gen1.py
+paper/gen2.py
+paper/gen3.py
+paper/gen4.py
+paper/gen_fig2_v3.py
+paper/gen_fig3.py
+paper/gen_figures.py
+paper/gen_figures_enhanced.py
+paper/gen_rewrite.py
+paper/patch_*.py
+paper/polish_*.py
+paper/repl_*.py
+paper/style_*.py
+paper/unify_*.py
+paper/verify_*.py
+paper/build_paper.py
+paper/generate_paper.py
+paper/update_paper_v3.py
+paper/out.txt
+
+# Paper compilation artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/task-summary_*.md
+
+# Paper output (compiled PDF, figures, compilation artifacts)
+paper/*.pdf
+paper/*.png
+paper/*.bbl
+paper/*.blg
+paper/*.txt
+paper/_page*.png
+paper/*corrupted*
+paper/*_original.tex
+paper/*_patched.tex
+paper/*_enhanced.*
+paper/paper.tex
+paper/paper.pdf
+paper/mobiquitous_paper\ .txt
+paper/repls.json
+paper/summary-*.md
+paper/polish_*.md
+paper/fix_*.md
+paper/compile_log.txt
+
+# OS files
+Thumbs.db
+.DS_Store
+# Paper files (not uploaded)
+paper/
+
